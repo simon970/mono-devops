@@ -28,3 +28,5 @@ const user= await prismaClient.user.create({
  })
 
 })
+
+app.listen(8080)
